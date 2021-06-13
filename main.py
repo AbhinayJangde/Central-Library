@@ -87,6 +87,47 @@ while(True):
                  '''
         print(php)
         print("     Thankyou for purchase this book")
+     elif(command=="buy -n c++" or command=="buy -n C++"):
+
+        cpp = ''' 
+                    Book Name     :   C++
+                    Writer        :   Kavita Patel
+                    Price         :   120$
+                    Released Date :   2015
+                 '''
+        print(cpp)
+        print("     Thankyou for purchase this book")
+    elif(command=="buy -n html" or command=="buy -n HTML"):
+
+        html = ''' 
+                    Book Name     :   HTML
+                    Writer        :   Pratiksha
+                    Price         :   35$
+                    Released Date :   2015
+                 '''
+        print(html)
+        print("     Thankyou for purchase this book")
+    elif(command=="buy -n CSS" or command=="buy -n css"):
+
+         css = ''' 
+                     Book Name     :   CSS
+                     Writer        :   Ajay Singh
+                     Price         :   78$
+                     Released Date :   2015
+                  '''
+         print(css)
+         print("     Thankyou for purchase this book")
+     elif(command=="buy -n Django" or command=="buy -n django"):
+
+         django = ''' 
+                     Book Name     :   Django
+                     Writer        :   Durgesh
+                     Price         :   91$
+                     Released Date :   2015
+                  '''
+         print(django)
+         print("     Thankyou for purchase this book")
+
 
 
 print("Thanks for Using")
