@@ -3,7 +3,7 @@ from typing import ChainMap
 
 
 print("==================================")
-print("=         Central Library        =")
+print("=========Central Library==========")
 print("==================================")
 books = ["Python", "C", "Java", "JavaScript", "PHP", "C++"]
 helps = ''' 
@@ -127,6 +127,8 @@ while(True):
                   '''
          print(django)
          print("     Thankyou for purchase this book")
+     else:
+        print("command not found.Please check help menu.")
 
 
 
