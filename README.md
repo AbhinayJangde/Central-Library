@@ -1,3 +1,2 @@
 # Central-Library
-Python library system 
-Guys this simple python library system for practice.
+This is simple python practice project.
